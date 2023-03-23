@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+li{
+  list-style: none;
+}
+.noti{
+  text-align: center;
+    margin: 2rem 0rem;
+    background: #77002e;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.8rem 0rem;
+}
+.message{
+
+    background: #77002e;
+    color: white;
+
+    position: fixed;
+  padding: 1rem;
+    bottom: 1rem;
+  width: 40vw;
+  text-align: center;
+    left: calc(100% - 70vw);
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
